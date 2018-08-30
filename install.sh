@@ -2,8 +2,13 @@
 
 dotfiles=("Xresources $HOME/.Xresources"
 	  "bashrc $HOME/.bashrc"
-	  "zshrc $HOME/.zshrc");
+	  "zshrc $HOME/.zshrc"
+	 "polybar-conf $HOME/.config/polybar/config");
 
+# Create polybar config directory
+mkdir -p ~/.config/polybar
+
+# loop over the array and create links
 i=0;
 while [ -n "${dotfiles[i]}" ]
 do
