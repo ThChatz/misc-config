@@ -1,0 +1,10 @@
+#!/bin/bash
+
+dotfiles=("Xresources ~/.Xresources"
+	  "bashrc ~/.bashrc"
+	  "zshrc ~/.zshrc");
+
+for d in dotfiles
+do
+    echo d
+done;
