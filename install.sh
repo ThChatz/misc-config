@@ -3,7 +3,8 @@
 dotfiles=("Xresources $HOME/.Xresources"
 	  "bashrc $HOME/.bashrc"
 	  "zshrc $HOME/.zshrc"
-	 "polybar-conf $HOME/.config/polybar/config");
+	  "polybar-conf $HOME/.config/polybar/config"
+	  "compton.conf $HOME/.config/compton.conf");
 
 # Create polybar config directory
 mkdir -p ~/.config/polybar
